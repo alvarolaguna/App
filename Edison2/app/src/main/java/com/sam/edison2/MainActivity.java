@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements JSONRequest.JSONC
         Log.d("noZones", noZones + "");
         Log.d("cap", cap + "");
         drawView = new DrawView(this, noZones, deltaCar, cap );
-        drawView.setBackgroundResource(R.drawable.mapa2);
+        drawView.setBackgroundResource(R.drawable.maptest);
 
 
         drawView.setOnClickListener(this);

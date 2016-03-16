@@ -79,18 +79,18 @@ public class DrawView extends View {
         //paint.setColor(evalColor(this.deltaCar[0]));
        //Log.d("SIZE", scale + "");
         drawPoly(canvas, evalColor(this.deltaCar[0]), new Point[]{
-                new Point(30 * scale, 69 * scale),
-                new Point(327 * scale, 69   * scale),
-                new Point(327 * scale, 232 * scale),
-                new Point(30 * scale, 232 * scale)
+                new Point(20 * scale, 10 * scale),
+                new Point(337 * scale, 10   * scale),
+                new Point(337 * scale, 255 * scale),
+                new Point(20 * scale, 255 * scale)
         });
 
 
         drawPoly(canvas,evalColor(this.deltaCar[1]), new Point[]{
-                new Point(30 * scale, 284 * scale), //
-                new Point(327 * scale, 284  * scale), //
-                new Point(327 * scale, 446 * scale), // Derecha
-                new Point(30 * scale, 446 * scale) // Izquierda
+                new Point(20 * scale, 264 * scale), //
+                new Point(333 * scale, 264  * scale), //
+                new Point(333 * scale, 500 * scale), // Derecha
+                new Point(20 * scale, 500 * scale) // Izquierda
         });
 
     }
